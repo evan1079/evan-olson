@@ -1,8 +1,8 @@
 :root {
-    --font-family: 'Ubuntu', sans-serif;
-    --font-family-header: 'Ubuntu', sans-serif;
-    --font-weight: 400;
-    --font-weight-bold: 700;
+    --font-family: 'Raleway', sans-serif;
+    --font-family-header: 'Raleway', sans-serif;
+    --font-weight: 300;
+    --font-weight-bold: 800;
     --font-size-xlarge: 30px;
     --font-size-large: 25px;
     --font-size-medium: 20px;
@@ -20,9 +20,9 @@
     --grid-gap-small: 20px;
     --grid-gap-vsmall: 0px;
     --max-width: 92rem;
-    --color-base: #333333;
-    --color-accent : #808080;
-    --color-accent-second : #333333;
+    --color-base: #373737;
+    --color-accent : #686963;
+    --color-accent-second : #8aa29e;
 }
 
 @media (min-width: 768px) {
@@ -129,16 +129,16 @@ body {
 	-webkit-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 	font-family: var(--font-family);
-	background: #fff;
+	background: #fafafa;
 	background-size: 100%;
 	display: grid;
 	grid-template-columns: 1fr;
-	color: #1a1a1a;
+	color: var(--color-base);
 	height: 100%;
 }
 
 html {
-	background-color: white;
+	background-color: #fafafa;
 }
 
 ::-moz-selection {
@@ -374,7 +374,7 @@ h2 {
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: rgba(176,36,71,0.25);
+	background-color: #d6333063;
 	z-index: 1;
 }
 
@@ -440,7 +440,7 @@ h2 {
 		bottom: 0;
 		left: 0;
 		right: 0;
-		background-color: rgba(176,36,71,0.25);
+		background-color: #d6333063;
 		z-index: 1;
 	}
 
