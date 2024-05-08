@@ -1,22 +1,42 @@
 :root {
 
-    .yeseva-one-regular {
-		font-family: "Yeseva One", serif;
-		font-weight: 400;
+      .headers {
+		font-family: "Cardo", serif;
+  		font-weight: 500;
+  		font-style: normal;
+		color:#373737
+	  }
+
+	  h2 {
+		font-family: "Cardo", serif;
+  		font-weight: 500;
+  		font-style: normal;
+		color:#686963
+	  }
+
+	  .copy {
+		font-family: "Josefin Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 300;
+		font-style: normal;
+		color: #373737;
+	  }
+
+	  .boldBody {
+		font-family: "Josefin Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 600;
 		font-style: normal;
 	  }
 
-	  .josefin-sans-body {
-		font-family: "Josefin Sans", sans-serif;
-		font-optical-sizing: auto;
-		font-weight: 100;
-		font-style: normal;
+	  body {
+		background-color: rgb(255, 238, 224);
 	  }
-    /*
-	--color-base: #373737;
-    --color-accent : #686963;
-    --color-accent-second : #8aa29e;
-	*/
+    
+	/*color-base: #373737;
+    color-accent : #686963;
+    color-accent-second : #8aa29e;*/
+	
 }
 
 @media (min-width: 768px) {
@@ -123,7 +143,7 @@ body {
 	-webkit-font-smoothing: antialiased;
 	font-smooth: antialiased;
 	font-family: var(--font-family);
-	background: #fafafa;
+	background: rgb(255, 238, 224);
 	background-size: 100%;
 	display: grid;
 	grid-template-columns: 1fr;
@@ -132,7 +152,7 @@ body {
 }
 
 html {
-	background-color: #fafafa;
+	background-color: rgb(255, 238, 224);
 }
 
 ::-moz-selection {
@@ -361,6 +381,7 @@ h2 {
 	position: relative;
 }
 
+/*Add Color Overlay on image 01*/
 .image:before {
 	content: '';
 	position: absolute;
@@ -427,6 +448,7 @@ h2 {
     	top: 0;
 	}
 
+	/*Add Color Overlay on image 02*/
 	.image:before {
 		content: '';
 		position: absolute;
