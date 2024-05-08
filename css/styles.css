@@ -1,28 +1,22 @@
 :root {
-    --font-family: 'Raleway', sans-serif;
-    --font-family-header: 'Raleway', sans-serif;
-    --font-weight: 300;
-    --font-weight-bold: 800;
-    --font-size-xlarge: 30px;
-    --font-size-large: 25px;
-    --font-size-medium: 20px;
-    --font-size: 16px;
-    --font-size-small: 14px;
- 	--lineheight-high: 1.75em;
-    --lineheight-normal: 1.5em;
-    --lineheight-tight: 1.2em;
-    --margin-base: 20px;
-    --margin-large: 40px;
-    --margin-xlarge: 60px;
-    --margin-xxlarge: 80px;
-    --margin-xxxlarge: 100px;
-    --grid-gap: 60px;
-    --grid-gap-small: 20px;
-    --grid-gap-vsmall: 0px;
-    --max-width: 92rem;
-    --color-base: #373737;
+
+    .yeseva-one-regular {
+		font-family: "Yeseva One", serif;
+		font-weight: 400;
+		font-style: normal;
+	  }
+
+	  .josefin-sans-body {
+		font-family: "Josefin Sans", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 100;
+		font-style: normal;
+	  }
+    /*
+	--color-base: #373737;
     --color-accent : #686963;
     --color-accent-second : #8aa29e;
+	*/
 }
 
 @media (min-width: 768px) {
@@ -94,7 +88,7 @@ article, aside, dialog, figure, footer, header, hgroup, nav, section {
 }
 
 audio, canvas, video { 
-	display: inline-block; *display: inline; *zoom: 1; 
+	display: inline-block; display: inline; zoom: 1; 
 }
 
 img {
@@ -127,7 +121,7 @@ box-sizing: border-box;
 
 body {
 	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
+	font-smooth: antialiased;
 	font-family: var(--font-family);
 	background: #fafafa;
 	background-size: 100%;
